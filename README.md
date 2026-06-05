@@ -20,16 +20,16 @@ For installation instructions of the used conda environments see `conda_environm
 - `stability_test_GMM_leiden_fibnuc.py`: Calculating clustering stability for fiber+nuclei spatial clustering for 480 and 5000 dataset, using both GMM clustering and Leiden clustering.
 - `stability_test_leiden_fibnuc_fibers.py`: Calculating clustering stability for fiber only  spatial clustering for 480 and 5000 dataset, using Leiden clustering.
 - `spatial_clustering_plot_stability.ipynb`: Plot clustering stability (ARI) of all tested spatial clusterings (using csv's from stability_test scripts).
-- `spatial_clustering_final.ipynb`: TO DO
-- `spatial_clustering_integrated_fibers_analysis.ipynb`: TO DO
+- `spatial_clustering_final.ipynb`: Generating spatial niches in the 480 and 5000 dataset, and spatial myofiber niches in the 5000 dataset. Includes niche barplots and DEG dotplots.
+- `spatial_clustering_integrated_fibers_analysis.ipynb`: Analysis of the spatial myofiber niches in the integrated 480+5000 genes fiber dataset.
 - `spatial_clustering_plotting.ipynb`: Plotting spatial (fiber) niches and immune cell counts over the segmentation shapes - Plots used in final thesis.
 
 ### Palantir environment
-- `palantir_pseudotime.ipynb`: TO DO
+- `palantir_pseudotime.ipynb`: Palantir Pseudotime analysis.
 
 ### scArches environment
-- `trVAE_final.ipynb`: TO DO
-- `trvae_integrated_fibers.ipynb`: TO DO
+- `trVAE_480_5000_fibers_and_nuclei.ipynb`: Train trVAE model and generate trVAE features for the 480 and 5000 genes datasets.
+- `trVAE_integrated_fibers.ipynb`: Train trVAE model and generate trVAE features for the integrated fiber dataset.
 
 ### SPArrOW environment
-- `immunecells_neighborhood_masks_visualise.ipynb`: TO DO
+- `immunecells_neighborhood_masks_visualise.ipynb`: Plot 200 pixel and 300 pixel expanded fiber shapes using sparrow. The 200 pixel expanded shapes were used to calculate immune cell counts in the myofiber neighborhoods in `immunecells_neighborhood_expanded_shapes.ipynb`.
